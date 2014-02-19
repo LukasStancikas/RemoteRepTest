@@ -11,9 +11,9 @@ namespace ProducerConsumer
         public BoundedBuffer Buffer;
         public int Howmany;
 
-        public Consumer(BoundedBuffer sqq, int b)
+        public Consumer(BoundedBuffer a, int b)
         {
-            Buffer = sqq;
+            Buffer = a;
             Howmany = b;
         }
 
